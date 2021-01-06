@@ -11,7 +11,7 @@ p {
 }
 
 #first_paragraph {
-  color:brown ;
+  color:#CB0101;
   font-weight: bold;
 }
 
@@ -20,9 +20,8 @@ p {
   text-align: center;
 }
 
-
 .green {
-  color: darkcyan;
+  color: #009FB7;
 }
 
 .large-font {
@@ -33,8 +32,6 @@ p {
   margin-top: 40px;
   margin-bottom: 60px;
 }
-
-
 
 p {
   color: #444444;
@@ -49,6 +46,22 @@ h1 .green {
   color: cadetblue;
 }
 
-#first-heading {
-  color: red;
+body.dark {
+  background-color: #3A445D;
+}
+
+body.dark h1, {
+  color: #fff !important;
+}
+
+body.dark a {
+  color: #D4D2A5;
+}
+
+body.dark * {
+  color: #fff
+}
+
+body.dark p, body.dark ul {
+  opacity: 0.8;
 }
