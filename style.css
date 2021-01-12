@@ -65,3 +65,7 @@ body.dark * {
 body.dark p, body.dark ul {
   opacity: 0.8;
 }
+
+body.dark button {
+  color: black;
+}
